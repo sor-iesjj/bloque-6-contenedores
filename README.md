@@ -22,7 +22,7 @@ Cada práctica se **graba entera con OBS** (presentándote, con timestamps) y se
 - `B6.0.2` — Contenedor frente a máquina virtual
 - `B6.0.3` — Vocabulario: imagen, contenedor, registro, capa
 
-**Fase B6.1 · Primer contacto** *(3 h)*
+**Fase B6.1 · Primer contacto** *(3 h)* ✅ **completa**
 - `B6.1.1` — Instalar Docker Engine en Ubuntu Server
 - `B6.1.2` — Tu primer contenedor: qué acaba de pasar
 - `B6.1.3` — Ciclo de vida: `run`, `ps`, `stop`, `start`, `rm`

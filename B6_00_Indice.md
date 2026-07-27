@@ -5,7 +5,7 @@ Horas: 22
 RA: RA1, RA4, RA5, RA6
 CE: 1.a, 1.b, 1.e, 1.i, 4.a, 4.b, 4.c, 4.f, 5.a, 5.b, 5.c, 5.f, 6.a, 6.b, 6.c, 6.e
 Playlist: B6_Contenedores
-Estado: Fase B6.0 completa · fases B6.1-B6.7 en construcción
+Estado: Fases B6.0 y B6.1 completas · fases B6.2-B6.7 en construcción
 ---
 
 # 📦 Bloque 6 — Aislamiento de servicios con contenedores
@@ -60,17 +60,17 @@ Estado: Fase B6.0 completa · fases B6.1-B6.7 en construcción
 
 | # | Documento | Tipo |
 |---|-----------|------|
-| B6.0.1 | [[B6_01_Que_es_un_contenedor\|¿Qué es un contenedor?]] | Concepto |
-| B6.0.2 | [[B6_02_Contenedor_vs_Maquina_Virtual\|Contenedor frente a máquina virtual]] | Concepto |
-| B6.0.3 | [[B6_03_Vocabulario\|Vocabulario: imagen, contenedor, registro, capa]] | Concepto |
+| B6.0.1 | [[B6_0.1_Que_es_un_contenedor\|¿Qué es un contenedor?]] | Concepto |
+| B6.0.2 | [[B6_0.2_Contenedor_vs_Maquina_Virtual\|Contenedor frente a máquina virtual]] | Concepto |
+| B6.0.3 | [[B6_0.3_Vocabulario\|Vocabulario: imagen, contenedor, registro, capa]] | Concepto |
 
 ### Fase B6.1 · Primer contacto (3 h)
 | # | Práctica | Nivel |
 |---|----------|-------|
-| B6.1.1 | Instalar Docker Engine en Ubuntu Server | Básico |
-| B6.1.2 | Tu primer contenedor: qué acaba de pasar | Básico |
-| B6.1.3 | Ciclo de vida: `run`, `ps`, `stop`, `start`, `rm` | Básico |
-| B6.1.4 | Imágenes: `pull`, `images`, `rmi`. ¿Dónde vive lo que descargas? | Básico |
+| B6.1.1 | [[B6_1.1_Instalar_Docker_Engine\|Instalar Docker Engine en Ubuntu Server]] | Básico |
+| B6.1.2 | [[B6_1.2_Primer_Contenedor\|Tu primer contenedor: qué acaba de pasar]] | Básico |
+| B6.1.3 | [[B6_1.3_Ciclo_de_Vida\|Ciclo de vida: `run`, `ps`, `stop`, `start`, `rm`]] | Básico |
+| B6.1.4 | [[B6_1.4_Imagenes\|Imágenes: `pull`, `images`, `rmi`. ¿Dónde vive lo que descargas?]] | Básico |
 
 ### Fase B6.2 · Mirar dentro: qué es el aislamiento (3 h)
 | # | Práctica | Nivel |
