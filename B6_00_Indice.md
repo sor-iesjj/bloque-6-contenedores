@@ -3,8 +3,9 @@ Bloque: 06_Contenedores
 Unidad: UD08
 Horas: 22
 RA: RA1, RA4, RA5, RA6
+CE: 1.a, 1.b, 1.e, 1.i, 4.a, 4.b, 4.c, 4.f, 5.a, 5.b, 5.c, 5.f, 6.a, 6.b, 6.c, 6.e
 Playlist: B6_Contenedores
-Estado: en construcción
+Estado: Fase B6.0 completa · fases B6.1-B6.7 en construcción
 ---
 
 # 📦 Bloque 6 — Aislamiento de servicios con contenedores
@@ -27,12 +28,12 @@ Estado: en construcción
 
 **Encaje curricular** (módulo 0224, RD 1691/2007 y Orden 29/07/2009 CV):
 
-| RA | Cómo lo trabaja este bloque |
-|---|---|
-| **RA1** — Instala SO en red describiendo sus características | Compara virtualización **pesada** (UD03/UD04) frente a aislamiento **ligero**. Otro modo de desplegar un sistema, sumado a los de UD02. |
-| **RA4** — Gestiona recursos compartidos determinando niveles de seguridad | Volúmenes, montajes del anfitrión, choque de UID/GID y contenedores sin privilegios. |
-| **RA5** — Monitorización | `docker stats` frente a `htop`; medición real de RAM y tiempo de arranque. |
-| **RA6** — Integración de SO libres y propietarios | Servicios Linux ejecutándose sobre Windows (WSL2) y compartiendo carpetas entre ambos mundos. |
+| RA | CE | Cómo lo trabaja este bloque |
+|---|---|---|
+| **RA1** — Instala SO en red describiendo sus características | `1.a` `1.b` `1.e` `1.i` | Compara virtualización **pesada** (UD03/UD04) frente a aislamiento **ligero**. Otro modo de desplegar un sistema, sumado a los de UD02. El eje "¿necesita otro SO?" es un estudio de compatibilidad (`1.a`); elegir imagen y etiqueta es seleccionar componentes (`1.e`); B6.7.2 comprueba la conectividad con el cliente (`1.i`). |
+| **RA4** — Gestiona recursos compartidos determinando niveles de seguridad | `4.a` `4.b` `4.c` `4.f` | Volúmenes y *bind mounts* (`4.b` `4.c`), el choque de UID/GID —que es **permiso frente a derecho** en estado puro (`4.a`)— y contenedores sin privilegios como nivel de seguridad (`4.f`). |
+| **RA5** — Monitorización | `5.a` `5.b` `5.c` `5.f` | `docker stats` frente a `htop` (`5.a`), medición real de RAM y arranque (`5.b`), y **`docker logs` como trazas generadas por el propio sistema** (`5.c`). |
+| **RA6** — Integración de SO libres y propietarios | `6.a` `6.b` `6.c` `6.e` | Servicios Linux sobre Windows con WSL2 (`6.b`), compartir carpetas entre ambos mundos (`6.e`) y comparar con Samba/NFS de UD07 (`6.c`). |
 
 > [!note] Objetivo general de referencia
 > **OGCl** — *"Detectar y analizar cambios tecnológicos para elegir nuevas alternativas y mantenerse actualizado dentro del sector."*

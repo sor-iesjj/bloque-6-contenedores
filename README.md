@@ -17,7 +17,7 @@ Cada práctica se **graba entera con OBS** (presentándote, con timestamps) y se
 
 ## Índice
 
-**Fase B6.0 · El concepto** *(2 h — sin ordenador)*
+**Fase B6.0 · El concepto** *(2 h — sin ordenador)* ✅ **completa**
 - `B6.0.1` — ¿Qué es un contenedor?
 - `B6.0.2` — Contenedor frente a máquina virtual
 - `B6.0.3` — Vocabulario: imagen, contenedor, registro, capa

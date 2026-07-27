@@ -5,7 +5,7 @@ Tipo: Concepto (no se graba, no se entrega)
 Nivel: 1
 Nivel_nombre: Básico
 RA: RA1
-CE: por confirmar con la PD
+CE: 1.a, 1.b
 ---
 
 ## B6.0.1 — ¿Qué es un contenedor?
