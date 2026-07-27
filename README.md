@@ -49,12 +49,12 @@ Cada práctica se **graba entera con OBS** (presentándote, con timestamps) y se
 - `B6.5.2` — Compartir una carpeta entre Windows y el contenedor Linux
 - `B6.5.3` — Comparativa con Samba y NFS de UD07
 
-**Fase B6.6 · Monitorización** *(2 h · RA5)* 🚧 *en construcción*
+**Fase B6.6 · Monitorización** *(2 h · RA5)* ✅ **completa**
 - `B6.6.1` — `docker stats` frente a `htop`
 - `B6.6.2` — Registros del servicio con `docker logs`
 - `B6.6.3` — **La medición:** VM contra contenedor, con números
 
-**Fase B6.7 · Proyecto integrador** *(3 h)* 🚧 *en construcción*
+**Fase B6.7 · Proyecto integrador** *(3 h)* ✅ **completa**
 - `B6.7.1` — De comandos larguísimos a un `compose.yaml`
 - `B6.7.2` — Un servicio accesible desde el cliente Windows del dominio
 - `B6.7.3` — Versionar el proyecto en GitHub y entregar

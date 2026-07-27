@@ -5,7 +5,7 @@ Horas: 22
 RA: RA1, RA4, RA5, RA6
 CE: 1.a, 1.b, 1.e, 1.i, 4.a, 4.b, 4.c, 4.f, 5.a, 5.b, 5.c, 5.f, 6.a, 6.b, 6.c, 6.e
 Playlist: B6_Contenedores
-Estado: Fases B6.0 a B6.5 completas · fases B6.6 y B6.7 en construcción
+Estado: Bloque completo · 26 documentos (3 de concepto + 23 prácticas) · 8 fases
 ---
 
 # 📦 Bloque 6 — Aislamiento de servicios con contenedores
@@ -101,19 +101,19 @@ Estado: Fases B6.0 a B6.5 completas · fases B6.6 y B6.7 en construcción
 | B6.5.2 | [[B6_5.2_Compartir_Carpeta_Windows\|Compartir una carpeta entre Windows y el contenedor Linux]] | Intermedio |
 | B6.5.3 | [[B6_5.3_Comparativa_Samba_NFS\|Comparativa con Samba y NFS de UD07]] | Intermedio |
 
-### Fase B6.6 · Monitorización (2 h) · **RA5** · 🚧 en construcción
+### Fase B6.6 · Monitorización (2 h) · **RA5** · ✅ completa
 | # | Práctica | Nivel |
 |---|----------|-------|
-| B6.6.1 | `docker stats` frente a `htop` | Básico |
-| B6.6.2 | Registros del servicio con `docker logs` | Básico |
-| B6.6.3 | **La medición:** VM contra contenedor, con números | Intermedio |
+| B6.6.1 | [[B6_6.1_Docker_Stats_vs_Htop\|`docker stats` frente a `htop`]] | Básico |
+| B6.6.2 | [[B6_6.2_Docker_Logs\|Registros del servicio con `docker logs`]] | Básico |
+| B6.6.3 | [[B6_6.3_Medicion_VM_vs_Contenedor\|**La medición:** VM contra contenedor, con números]] | Intermedio |
 
-### Fase B6.7 · Proyecto integrador (3 h) · 🚧 en construcción
+### Fase B6.7 · Proyecto integrador (3 h) · ✅ completa
 | # | Práctica | Nivel |
 |---|----------|-------|
-| B6.7.1 | De comandos larguísimos a un fichero: `compose.yaml` | Intermedio |
-| B6.7.2 | Un servicio accesible desde el cliente Windows del dominio | Avanzado |
-| B6.7.3 | Versionar el proyecto en GitHub y entregar | Integrador |
+| B6.7.1 | [[B6_7.1_Compose\|De comandos larguísimos a un fichero: `compose.yaml`]] | Intermedio |
+| B6.7.2 | [[B6_7.2_Servicio_Desde_Cliente_Windows\|Un servicio accesible desde el cliente Windows del dominio]] | Avanzado |
+| B6.7.3 | [[B6_7.3_Versionar_En_GitHub\|Versionar el proyecto en GitHub y entregar]] | Integrador |
 
 ---
 
