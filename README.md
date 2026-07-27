@@ -28,33 +28,33 @@ Cada práctica se **graba entera con OBS** (presentándote, con timestamps) y se
 - `B6.1.3` — Ciclo de vida: `run`, `ps`, `stop`, `start`, `rm`
 - `B6.1.4` — Imágenes: `pull`, `images`, `rmi`
 
-**Fase B6.2 · Mirar dentro: qué es el aislamiento** *(3 h)*
+**Fase B6.2 · Mirar dentro: qué es el aislamiento** *(3 h)* ✅ **completa**
 - `B6.2.1` — Entrar en un contenedor y explorarlo
 - `B6.2.2` — Procesos: `ps aux` dentro y fuera — **la demostración**
 - `B6.2.3` — El contenedor es efímero
 
-**Fase B6.3 · Red y puertos** *(3 h)*
+**Fase B6.3 · Red y puertos** *(3 h)* ✅ **completa**
 - `B6.3.1` — Nginx sin `-p`: por qué no responde
 - `B6.3.2` — Publicar puertos con `-p 8080:80`
 - `B6.3.3` — Varios contenedores y conflictos de puerto
 
-**Fase B6.4 · Persistencia y permisos** *(4 h — el corazón del bloque)*
+**Fase B6.4 · Persistencia y permisos** *(4 h — el corazón del bloque)* ✅ **completa**
 - `B6.4.1` — Volúmenes: que los datos sobrevivan
 - `B6.4.2` — Montar una carpeta del anfitrión (*bind mount*)
 - `B6.4.3` — El choque de UID/GID — reencuentro con UD05
 - `B6.4.4` — Ejecutar un contenedor sin ser root
 
-**Fase B6.5 · Integración libre ↔ propietario** *(2 h · RA6)*
+**Fase B6.5 · Integración libre ↔ propietario** *(2 h · RA6)* ✅ **completa**
 - `B6.5.1` — Docker Desktop sobre Windows con WSL2
 - `B6.5.2` — Compartir una carpeta entre Windows y el contenedor Linux
 - `B6.5.3` — Comparativa con Samba y NFS de UD07
 
-**Fase B6.6 · Monitorización** *(2 h · RA5)*
+**Fase B6.6 · Monitorización** *(2 h · RA5)* 🚧 *en construcción*
 - `B6.6.1` — `docker stats` frente a `htop`
 - `B6.6.2` — Registros del servicio con `docker logs`
 - `B6.6.3` — **La medición:** VM contra contenedor, con números
 
-**Fase B6.7 · Proyecto integrador** *(3 h)*
+**Fase B6.7 · Proyecto integrador** *(3 h)* 🚧 *en construcción*
 - `B6.7.1` — De comandos larguísimos a un `compose.yaml`
 - `B6.7.2` — Un servicio accesible desde el cliente Windows del dominio
 - `B6.7.3` — Versionar el proyecto en GitHub y entregar

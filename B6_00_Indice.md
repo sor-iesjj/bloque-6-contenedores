@@ -5,7 +5,7 @@ Horas: 22
 RA: RA1, RA4, RA5, RA6
 CE: 1.a, 1.b, 1.e, 1.i, 4.a, 4.b, 4.c, 4.f, 5.a, 5.b, 5.c, 5.f, 6.a, 6.b, 6.c, 6.e
 Playlist: B6_Contenedores
-Estado: Fases B6.0 y B6.1 completas · fases B6.2-B6.7 en construcción
+Estado: Fases B6.0 a B6.5 completas · fases B6.6 y B6.7 en construcción
 ---
 
 # 📦 Bloque 6 — Aislamiento de servicios con contenedores
@@ -55,7 +55,7 @@ Estado: Fases B6.0 y B6.1 completas · fases B6.2-B6.7 en construcción
 
 ## 📚 Índice del bloque
 
-### Fase B6.0 · El concepto — *antes de tocar nada* (2 h)
+### Fase B6.0 · El concepto — *antes de tocar nada* (2 h) · ✅ completa
 > Sin ordenador. Se lee, se dibuja y se discute. Son documentos de concepto, no prácticas evaluables.
 
 | # | Documento | Tipo |
@@ -64,7 +64,7 @@ Estado: Fases B6.0 y B6.1 completas · fases B6.2-B6.7 en construcción
 | B6.0.2 | [[B6_0.2_Contenedor_vs_Maquina_Virtual\|Contenedor frente a máquina virtual]] | Concepto |
 | B6.0.3 | [[B6_0.3_Vocabulario\|Vocabulario: imagen, contenedor, registro, capa]] | Concepto |
 
-### Fase B6.1 · Primer contacto (3 h)
+### Fase B6.1 · Primer contacto (3 h) · ✅ completa
 | # | Práctica | Nivel |
 |---|----------|-------|
 | B6.1.1 | [[B6_1.1_Instalar_Docker_Engine\|Instalar Docker Engine en Ubuntu Server]] | Básico |
@@ -72,43 +72,43 @@ Estado: Fases B6.0 y B6.1 completas · fases B6.2-B6.7 en construcción
 | B6.1.3 | [[B6_1.3_Ciclo_de_Vida\|Ciclo de vida: `run`, `ps`, `stop`, `start`, `rm`]] | Básico |
 | B6.1.4 | [[B6_1.4_Imagenes\|Imágenes: `pull`, `images`, `rmi`. ¿Dónde vive lo que descargas?]] | Básico |
 
-### Fase B6.2 · Mirar dentro: qué es el aislamiento (3 h)
+### Fase B6.2 · Mirar dentro: qué es el aislamiento (3 h) · ✅ completa
 | # | Práctica | Nivel |
 |---|----------|-------|
-| B6.2.1 | Entrar en un contenedor y explorarlo por dentro | Básico |
-| B6.2.2 | Procesos: `ps aux` dentro y fuera — **la demostración** | Intermedio |
-| B6.2.3 | El contenedor es efímero: escribe, borra, desaparece | Básico |
+| B6.2.1 | [[B6_2.1_Entrar_en_un_Contenedor\|Entrar en un contenedor y explorarlo por dentro]] | Básico |
+| B6.2.2 | [[B6_2.2_Procesos_Dentro_y_Fuera\|Procesos: `ps aux` dentro y fuera — **la demostración**]] | Intermedio |
+| B6.2.3 | [[B6_2.3_El_Contenedor_es_Efimero\|El contenedor es efímero: escribe, borra, desaparece]] | Básico |
 
-### Fase B6.3 · Red y puertos (3 h)
+### Fase B6.3 · Red y puertos (3 h) · ✅ completa
 | # | Práctica | Nivel |
 |---|----------|-------|
-| B6.3.1 | Nginx sin `-p`: por qué no responde | Básico |
-| B6.3.2 | Publicar puertos con `-p 8080:80` | Intermedio |
-| B6.3.3 | Varios contenedores a la vez y conflictos de puerto | Intermedio |
+| B6.3.1 | [[B6_3.1_Nginx_sin_Publicar\|Nginx sin `-p`: por qué no responde]] | Básico |
+| B6.3.2 | [[B6_3.2_Publicar_Puertos\|Publicar puertos con `-p 8080:80`]] | Intermedio |
+| B6.3.3 | [[B6_3.3_Conflictos_de_Puerto\|Varios contenedores a la vez y conflictos de puerto]] | Intermedio |
 
-### Fase B6.4 · Persistencia y permisos — *el corazón del bloque* (4 h)
+### Fase B6.4 · Persistencia y permisos — *el corazón del bloque* (4 h) · ✅ completa
 | # | Práctica | Nivel |
 |---|----------|-------|
-| B6.4.1 | Volúmenes: que los datos sobrevivan al contenedor | Intermedio |
-| B6.4.2 | Montar una carpeta del anfitrión (*bind mount*) | Intermedio |
-| B6.4.3 | El choque de UID/GID — reencuentro con UD05 | Avanzado |
-| B6.4.4 | Ejecutar un contenedor sin ser root | Avanzado |
+| B6.4.1 | [[B6_4.1_Volumenes\|Volúmenes: que los datos sobrevivan al contenedor]] | Intermedio |
+| B6.4.2 | [[B6_4.2_Bind_Mount\|Montar una carpeta del anfitrión (*bind mount*)]] | Intermedio |
+| B6.4.3 | [[B6_4.3_Choque_UID_GID\|El choque de UID/GID — reencuentro con UD05]] | Avanzado |
+| B6.4.4 | [[B6_4.4_Sin_Privilegios\|Ejecutar un contenedor sin ser root]] | Avanzado |
 
-### Fase B6.5 · Integración libre ↔ propietario (2 h) · **RA6**
+### Fase B6.5 · Integración libre ↔ propietario (2 h) · **RA6** · ✅ completa
 | # | Práctica | Nivel |
 |---|----------|-------|
-| B6.5.1 | Docker Desktop sobre Windows con WSL2 | Intermedio |
-| B6.5.2 | Compartir una carpeta entre Windows y el contenedor Linux | Intermedio |
-| B6.5.3 | Comparativa con Samba y NFS de UD07 | Intermedio |
+| B6.5.1 | [[B6_5.1_Docker_Desktop_WSL2\|Docker Desktop sobre Windows con WSL2]] | Intermedio |
+| B6.5.2 | [[B6_5.2_Compartir_Carpeta_Windows\|Compartir una carpeta entre Windows y el contenedor Linux]] | Intermedio |
+| B6.5.3 | [[B6_5.3_Comparativa_Samba_NFS\|Comparativa con Samba y NFS de UD07]] | Intermedio |
 
-### Fase B6.6 · Monitorización (2 h) · **RA5**
+### Fase B6.6 · Monitorización (2 h) · **RA5** · 🚧 en construcción
 | # | Práctica | Nivel |
 |---|----------|-------|
 | B6.6.1 | `docker stats` frente a `htop` | Básico |
 | B6.6.2 | Registros del servicio con `docker logs` | Básico |
 | B6.6.3 | **La medición:** VM contra contenedor, con números | Intermedio |
 
-### Fase B6.7 · Proyecto integrador (3 h)
+### Fase B6.7 · Proyecto integrador (3 h) · 🚧 en construcción
 | # | Práctica | Nivel |
 |---|----------|-------|
 | B6.7.1 | De comandos larguísimos a un fichero: `compose.yaml` | Intermedio |
