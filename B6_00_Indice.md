@@ -2,8 +2,8 @@
 Bloque: 06_Contenedores
 Unidad: UD08
 Horas: 22
-RA: RA1, RA4, RA5, RA6
-CE: 1.a, 1.b, 1.e, 1.i, 4.a, 4.b, 4.c, 4.f, 5.a, 5.b, 5.c, 5.f, 6.a, 6.b, 6.c, 6.e
+RA: RA.01 · RA.04 · RA.05 · RA.06
+CE: CE.01.a, CE.01.b, CE.01.e, CE.01.i, CE.04.a, CE.04.b, CE.04.c, CE.04.f, CE.05.a, CE.05.b, CE.05.c, CE.05.f, CE.06.a, CE.06.b, CE.06.c, CE.06.e
 Playlist: B6_Contenedores
 Estado: Bloque completo · 26 documentos (3 de concepto + 23 prácticas) · 8 fases
 ---
@@ -30,10 +30,10 @@ Estado: Bloque completo · 26 documentos (3 de concepto + 23 prácticas) · 8 fa
 
 | RA | CE | Cómo lo trabaja este bloque |
 |---|---|---|
-| **RA1** — Instala SO en red describiendo sus características | `1.a` `1.b` `1.e` `1.i` | Compara virtualización **pesada** (UD03/UD04) frente a aislamiento **ligero**. Otro modo de desplegar un sistema, sumado a los de UD02. El eje "¿necesita otro SO?" es un estudio de compatibilidad (`1.a`); elegir imagen y etiqueta es seleccionar componentes (`1.e`); B6.7.2 comprueba la conectividad con el cliente (`1.i`). |
-| **RA4** — Gestiona recursos compartidos determinando niveles de seguridad | `4.a` `4.b` `4.c` `4.f` | Volúmenes y *bind mounts* (`4.b` `4.c`), el choque de UID/GID —que es **permiso frente a derecho** en estado puro (`4.a`)— y contenedores sin privilegios como nivel de seguridad (`4.f`). |
-| **RA5** — Monitorización | `5.a` `5.b` `5.c` `5.f` | `docker stats` frente a `htop` (`5.a`), medición real de RAM y arranque (`5.b`), y **`docker logs` como trazas generadas por el propio sistema** (`5.c`). |
-| **RA6** — Integración de SO libres y propietarios | `6.a` `6.b` `6.c` `6.e` | Servicios Linux sobre Windows con WSL2 (`6.b`), compartir carpetas entre ambos mundos (`6.e`) y comparar con Samba/NFS de UD07 (`6.c`). |
+| **RA.01** — Instala SO en red describiendo sus características | `CE.01.a` `CE.01.b` `CE.01.e` `CE.01.i` | Compara virtualización **pesada** (UD03/UD04) frente a aislamiento **ligero**. Otro modo de desplegar un sistema, sumado a los de UD02. El eje "¿necesita otro SO?" es un estudio de compatibilidad (`CE.01.a`); elegir imagen y etiqueta es seleccionar componentes (`CE.01.e`); B6.7.2 comprueba la conectividad con el cliente (`CE.01.i`). |
+| **RA.04** — Gestiona recursos compartidos determinando niveles de seguridad | `CE.04.a` `CE.04.b` `CE.04.c` `CE.04.f` | Volúmenes y *bind mounts* (`CE.04.b` `CE.04.c`), el choque de UID/GID —que es **permiso frente a derecho** en estado puro (`CE.04.a`)— y contenedores sin privilegios como nivel de seguridad (`CE.04.f`). |
+| **RA.05** — Monitorización | `CE.05.a` `CE.05.b` `CE.05.c` `CE.05.f` | `docker stats` frente a `htop` (`CE.05.a`), medición real de RAM y arranque (`CE.05.b`), y **`docker logs` como trazas generadas por el propio sistema** (`CE.05.c`). |
+| **RA.06** — Integración de SO libres y propietarios | `CE.06.a` `CE.06.b` `CE.06.c` `CE.06.e` | Servicios Linux sobre Windows con WSL2 (`CE.06.b`), compartir carpetas entre ambos mundos (`CE.06.e`) y comparar con Samba/NFS de UD07 (`CE.06.c`). |
 
 > [!note] Objetivo general de referencia
 > **OGCl** — *"Detectar y analizar cambios tecnológicos para elegir nuevas alternativas y mantenerse actualizado dentro del sector."*
@@ -94,14 +94,14 @@ Estado: Bloque completo · 26 documentos (3 de concepto + 23 prácticas) · 8 fa
 | B6.4.3 | [[B6_4.3_Choque_UID_GID\|El choque de UID/GID — reencuentro con UD05]] | Avanzado |
 | B6.4.4 | [[B6_4.4_Sin_Privilegios\|Ejecutar un contenedor sin ser root]] | Avanzado |
 
-### Fase B6.5 · Integración libre ↔ propietario (2 h) · **RA6** · ✅ completa
+### Fase B6.5 · Integración libre ↔ propietario (2 h) · **RA.06** · ✅ completa
 | # | Práctica | Nivel |
 |---|----------|-------|
 | B6.5.1 | [[B6_5.1_Docker_Desktop_WSL2\|Docker Desktop sobre Windows con WSL2]] | Intermedio |
 | B6.5.2 | [[B6_5.2_Compartir_Carpeta_Windows\|Compartir una carpeta entre Windows y el contenedor Linux]] | Intermedio |
 | B6.5.3 | [[B6_5.3_Comparativa_Samba_NFS\|Comparativa con Samba y NFS de UD07]] | Intermedio |
 
-### Fase B6.6 · Monitorización (2 h) · **RA5** · ✅ completa
+### Fase B6.6 · Monitorización (2 h) · **RA.05** · ✅ completa
 | # | Práctica | Nivel |
 |---|----------|-------|
 | B6.6.1 | [[B6_6.1_Docker_Stats_vs_Htop\|`docker stats` frente a `htop`]] | Básico |

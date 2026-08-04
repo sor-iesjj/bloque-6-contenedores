@@ -44,12 +44,12 @@ Cada práctica se **graba entera con OBS** (presentándote, con timestamps) y se
 - `B6.4.3` — El choque de UID/GID — reencuentro con UD05
 - `B6.4.4` — Ejecutar un contenedor sin ser root
 
-**Fase B6.5 · Integración libre ↔ propietario** *(2 h · RA6)* ✅ **completa**
+**Fase B6.5 · Integración libre ↔ propietario** *(2 h · RA.06)* ✅ **completa**
 - `B6.5.1` — Docker Desktop sobre Windows con WSL2
 - `B6.5.2` — Compartir una carpeta entre Windows y el contenedor Linux
 - `B6.5.3` — Comparativa con Samba y NFS de UD07
 
-**Fase B6.6 · Monitorización** *(2 h · RA5)* ✅ **completa**
+**Fase B6.6 · Monitorización** *(2 h · RA.05)* ✅ **completa**
 - `B6.6.1` — `docker stats` frente a `htop`
 - `B6.6.2` — Registros del servicio con `docker logs`
 - `B6.6.3` — **La medición:** VM contra contenedor, con números
